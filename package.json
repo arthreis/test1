@@ -1,0 +1,29 @@
+{
+  "name": "system-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nstart": "nodemon bin/server.js",
+    "start": "node bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arthreis/system-01.git"
+  },
+  "author": "arthreis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthreis/system-01/issues"
+  },
+  "homepage": "https://github.com/arthreis/system-01#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "mongoose": "^5.11.7",
+    "nodemon": "^2.0.6"
+  }
+}
